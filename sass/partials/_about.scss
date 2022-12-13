@@ -1,0 +1,22 @@
+.about__section {
+    padding-top: 60px;
+}
+
+.profile__img {
+    border-radius: 50%;
+    max-width: 110px;
+    float: right;
+    margin: 10px;
+}
+
+@media(min-width: 900px) {
+    .about__section {
+        padding-top: 0px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .profile__img {
+        max-width: 250px;
+    }
+}

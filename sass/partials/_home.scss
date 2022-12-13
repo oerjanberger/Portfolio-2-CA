@@ -1,0 +1,9 @@
+.home__section {
+    margin: 0px;
+    max-width: 100%;
+    background-image: url(../../media/images/code_background.jpg);
+    background-repeat: repeat-x;
+    display: grid;
+    grid-template-columns: auto;
+    place-content: center;
+}

@@ -1,0 +1,14 @@
+$font-heading: bitter, serif;
+
+$font-primary: open-sans,
+    sans-serif;
+
+$colours: (
+    backgroundColour: #4A4A4A,
+    CardBackgroundColour: #5e5e5e,
+    textColour: #EFEFEF,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

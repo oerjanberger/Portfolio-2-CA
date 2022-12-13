@@ -1,0 +1,40 @@
+.contact__section {
+    padding-top: 60px;
+
+    a p {
+        margin-bottom: 0px;
+    }
+}
+
+.contact__info__container,
+.contact__info__one,
+.contact__info__two {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__info__one,
+.contact__info__two {
+    align-items: center;
+}
+
+.contact__links__container {
+    display: flex;
+    align-items: center;
+}
+
+.link__separation {
+    margin: 0px 20px;
+}
+
+@media(min-width: 900px) {
+    .contact__section {
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    .contact__info__container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

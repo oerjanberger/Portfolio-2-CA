@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: getColour(backgroundColour);
+}
+
+section {
+    min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+body,
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    color: getColour(textColour);
+}
+
+h1,
+h2 {
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 1.4rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
