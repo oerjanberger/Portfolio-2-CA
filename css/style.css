@@ -196,7 +196,7 @@ header {
 
 @media (min-width: 900px) {
   .about__section {
-    padding-top: 0px;
+    padding-top: 20px;
     margin-top: 0px;
     justify-content: center;
   }
@@ -258,7 +258,7 @@ header {
 
 @media (min-width: 900px) {
   .contact__section {
-    padding-top: 0px;
+    padding-top: 20px;
     justify-content: center;
   }
   .contact__info__container {
